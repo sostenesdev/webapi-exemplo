@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46B7668F-E4E6-4D22-BF27-4150CB7225F9}</ProjectGuid>
+    <ProjectGuid>{E7649BCD-1041-48C2-AEB5-93A368B4540F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sostenes.MyApi.Dominio</RootNamespace>
-    <AssemblyName>Sostenes.MyApi.Dominio</AssemblyName>
+    <RootNamespace>Sostenes.MyApi.AcessoDados.Entity</RootNamespace>
+    <AssemblyName>Sostenes.MyApi.AcessoDados.Entity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aluno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
